@@ -6,11 +6,7 @@ with open('requirements.txt') as f:
 requirements = [x.strip() for x in content if 'git+' not in x]
 
 setup(name='ToolBox',
-      version="1.0",
-      description="Project Description",
+      description="some tools for future usage",
       packages=find_packages(),
       test_suite = 'tests',
-      # include_package_data: to install data from MANIFEST.in
-      include_package_data=True,
-      scripts=['scripts/ToolBox-run'],
       zip_safe=False)
