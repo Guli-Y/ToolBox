@@ -4,3 +4,5 @@ wheel>=0.29
 pandas
 pytest
 python-gitlab
+googlemaps
+hereby
